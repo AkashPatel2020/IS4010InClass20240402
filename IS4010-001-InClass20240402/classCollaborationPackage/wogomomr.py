@@ -40,6 +40,8 @@ def wogomomr(s: str) -> int:
     return total
 
 # Example usage
-print(wogomomr("III"))      # Output: 3
-print(wogomomr("LVIII"))    # Output: 58
-print(wogomomr("MCMXCIV"))  # Output: 1994
+if __name__ =="__main__":
+
+    print(wogomomr("III"))      # Output: 3
+    print(wogomomr("LVIII"))    # Output: 58
+    print(wogomomr("MCMXCIV"))  # Output: 1994
